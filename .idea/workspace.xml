@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85544034-d333-419c-9895-a17aea7775fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/2_Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3_TemplateMethod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/4_Factory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/5_Singleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/4_Factory_Abstract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/idcard/4_Factory_Concrete.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/AbstractDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/AbstractDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/CharDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/CharDisplay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/META-INF/learnJavaDesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/META-INF/learnJavaDesignPattern.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/StringDisplay$width$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/StringDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/StringDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/_3_TemplateMethodKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnJavaDesignPattern/_3_TemplateMethodKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_TemplateMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_TemplateMethod.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +40,52 @@
         <entry file="file://$PROJECT_DIR$/src/2_Adapter.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3_TemplateMethod.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/framework/4_Factory_Abstract.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/idcard/4_Factory_Concrete.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/3_TemplateMethod.kt">
+        <entry file="file://$PROJECT_DIR$/src/5_Singleton.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="209">
+              <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/4_Factory.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,6 +137,11 @@
         <option value="$PROJECT_DIR$/src/file.txt" />
         <option value="$PROJECT_DIR$/src/2_Adapter.kt" />
         <option value="$PROJECT_DIR$/src/3_TemplateMethod.kt" />
+        <option value="$PROJECT_DIR$/src/framework/4_Factory.kt" />
+        <option value="$PROJECT_DIR$/src/framework/4_Factory_Abstract.kt" />
+        <option value="$PROJECT_DIR$/src/4_Factory.kt" />
+        <option value="$PROJECT_DIR$/src/idcard/4_Factory_Concrete.kt" />
+        <option value="$PROJECT_DIR$/src/5_Singleton.kt" />
       </list>
     </option>
   </component>
@@ -131,6 +179,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._3_TemplateMethodKt">
+  <component name="RunManager" selected="Kotlin._5_SingletonKt">
     <configuration name="_1_IteratorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="learnJavaDesignPattern" />
       <option name="VM_PARAMETERS" />
@@ -184,8 +233,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_4_FactoryKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="learnJavaDesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_4_FactoryKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_5_SingletonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="learnJavaDesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_5_SingletonKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._5_SingletonKt" />
+        <item itemvalue="Kotlin._4_FactoryKt" />
         <item itemvalue="Kotlin._3_TemplateMethodKt" />
         <item itemvalue="Kotlin._2_AdapterKt" />
         <item itemvalue="Kotlin._1_IteratorKt" />
@@ -300,14 +377,49 @@
     <entry file="file://$PROJECT_DIR$/src/2_Adapter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/3_TemplateMethod.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="34">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/4_Factory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/4_Factory_Abstract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/idcard/4_Factory_Concrete.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/5_Singleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
         </state>
       </provider>
     </entry>

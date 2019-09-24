@@ -1,3 +1,4 @@
+
 abstract class AbstractDisplay {
     abstract fun open()
     abstract fun print()
@@ -27,7 +28,7 @@ class CharDisplay(private val ch: CharSequence) : AbstractDisplay() {
 
 class StringDisplay(private val string: String) : AbstractDisplay() {
 
-    private val width : Int by lazy { string.toByteArray().size }
+    private val width : Int = string.toByteArray().size
 
     override fun open() {
         printLine()
